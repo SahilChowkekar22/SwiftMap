@@ -2,7 +2,7 @@
 
 A modern iOS application built with SwiftUI that demonstrates interactive map functionality, location services, and custom map annotations. This project showcases the integration of MapKit with SwiftUI, providing a seamless mapping experience with real-time location tracking and custom map annotations.
 
-## 📱 Features
+## Features
 
 - **Interactive Map Interface**
   - Smooth pan and zoom functionality
@@ -34,7 +34,7 @@ A modern iOS application built with SwiftUI that demonstrates interactive map fu
   - State management using @Published
   - Custom property wrappers
 
-## 🛠 Technologies & Implementation Details
+## Technologies & Implementation Details
 
 ### SwiftUI Framework
 - Utilizes SwiftUI's latest features for UI construction
@@ -73,7 +73,7 @@ A modern iOS application built with SwiftUI that demonstrates interactive map fu
 - **Design Pattern**: MVVM
 - **State Management**: Combine framework
 
-## 📋 Prerequisites
+## Prerequisites
 
 Before you begin, ensure you have the following installed:
 - Xcode 15 or later
@@ -81,7 +81,7 @@ Before you begin, ensure you have the following installed:
 - Apple Developer account (for testing on physical devices)
 - macOS Sonoma 14.0+ (recommended)
 
-## 🚀 Getting Started
+## Getting Started
 
 1. Clone the repository:
 ```bash
@@ -107,7 +107,7 @@ open MapsSwiftUI.xcodeproj
 
 5. Build and run the project (⌘ + R)
 
-## 📁 Project Structure
+## Project Structure
 
 ### Core Components
 ```
@@ -125,7 +125,7 @@ MapsSwiftUI/
 └── Tests/                        # Unit and UI tests
 ```
 
-## 💡 Key Components in Detail
+## Key Components in Detail
 
 ### MyLocationManager
 Sophisticated location management class that:
@@ -158,7 +158,7 @@ Custom annotation implementation with:
 - Animation support
 - Configurable metadata display
 
-## 🔧 Advanced Configuration
+## Advanced Configuration
 
 ### Location Accuracy Settings
 ```swift
@@ -180,7 +180,7 @@ MKCoordinateRegion(
 )
 ```
 
-## 🤝 Contributing
+## Contributing
 
 We welcome contributions! Please follow these steps:
 
